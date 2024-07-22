@@ -46,7 +46,14 @@ body {
 .product__title {
     font-family: 'Fraunces', serif;
     font-size: 1.5rem;
-    margin: 20px 0;
+    margin: 30px 0;
+}
+
+.product__prices {
+    display: flex;
+    align-items: baseline;
+    gap: 36px;
+    margin: 20px 0; /* Add some margin for spacing */
 }
 
 .product__price {
@@ -58,6 +65,7 @@ body {
 .product__original-price {
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
+
 }
 
 .button {
@@ -65,7 +73,7 @@ body {
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     cursor: pointer;
     display: flex;
     align-items: center;
